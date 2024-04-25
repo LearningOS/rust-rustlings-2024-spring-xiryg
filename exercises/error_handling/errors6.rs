@@ -9,7 +9,7 @@
 // Execute `rustlings hint errors6` or use the `hint` watch subcommand for a
 // hint.
 
-
+//
 
 use std::num::ParseIntError;
 

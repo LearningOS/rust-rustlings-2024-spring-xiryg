@@ -3,7 +3,7 @@
 // Execute `rustlings hint errors4` or use the `hint` watch subcommand for a
 // hint.
 
-
+// 
 
 #[derive(PartialEq, Debug)]
 struct PositiveNonzeroInteger(u64);
@@ -35,3 +35,4 @@ fn test_creation() {
     );
     assert_eq!(Err(CreationError::Zero), PositiveNonzeroInteger::new(0));
 }
+
